@@ -1,34 +1,4 @@
-html,
-body {
-  height: 100%;
-}
-a {
-  color: black;
-  text-decoration: none;
-}
-a:visited {
-  color: brown;
-}
-a:hover {
-  color: aquamarine;
-}
-a:active {
-  color: blue;
-  font-weight: bold;
-}
-a:focus {
-  color: blueviolet;
-}
-a.btn {
-  text-decoration: none;
-  background: red;
-  border: 2px solid #000;
-  border-radius: 10px;
-  color: #fff;
-  padding: 10px 20px;
-  display: inline-block;
-}
-
-a.btn:hover {
-  background: rgba(255, 0, 0, 0.2);
+ul {
+  list-style-type: disc;
+  list-style-type: circle;
 }

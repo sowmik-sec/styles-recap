@@ -1,9 +1,9 @@
-h1 {
-  border-style: inset;
-  border-width: 10px;
-  border-color: aquamarine;
-  border: 10px solid blue;
-  border-radius: 5px;
-  border-left: 5px solid gray;
-  border-left-style: dotted;
+div {
+  background: #5749;
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  padding-top: 50px;
+  margin: 10px auto;
+  padding: 20px;
 }

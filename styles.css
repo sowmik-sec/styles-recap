@@ -1,52 +1,59 @@
 body {
-  font-family: "Poppins" sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
 }
-#main_menu {
-  background: #1b1464;
-}
-#main_menu ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.contact {
+  width: 80%;
+  border: 1px solid #ddd;
+  margin: 20px auto;
+  padding: 5%;
   text-align: center;
 }
-#main_menu li {
-  display: inline-block;
-  position: relative;
+.contact h2 {
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 0;
 }
-#main_menu li a {
+.contact p {
+  color: rgb(113, 113, 113);
+}
+.contact form {
+  margin-top: 25px;
+}
+.child_form {
+  width: 100%;
+  margin-bottom: 15px;
+  text-align: left;
+}
+.child_form label {
   display: block;
-  padding: 12px 15px;
-  color: #fff;
-  text-decoration: none;
+  margin-bottom: 5px;
 }
-#main_menu li a:hover {
-  background: #0652dd;
+.child_form input,
+.child_form select,
+.child_form textarea {
+  font-family: "Poppins", sans-serif;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px 3%;
+  width: 94%;
 }
-/* Dropdown menu style */
-#main_menu ul ul {
-  position: absolute;
-  left: 0;
-  top: 47px;
-  background: #5758bb;
+.child_form select {
+  width: 100%;
+}
+.child_form input[type="button"] {
   width: 200px;
-  display: none;
-  z-index: 999;
+  background: blueviolet;
+  border: 1px solid blueviolet;
+  color: #fff;
 }
-#main_menu ul ul li {
-  display: block;
+.child_form input[type="button"]:hover {
+  width: 200px;
+  background: black;
+  border: 1px solid black;
+  color: #fff;
+  cursor: pointer;
 }
-#main_menu ul li:hover ul {
-  display: block;
-}
-#main_menu ul li:hover a {
-  background: #0652dd;
-}
-#main_menu ul li:hover li a {
-  background: #5758bb;
-}
-#main_menu ul ul li a:hover {
-  display: block;
-  background: #192a56;
+.child_form:last-child {
+  margin-bottom: 0;
 }

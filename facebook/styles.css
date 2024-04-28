@@ -1,0 +1,106 @@
+body {
+  background: #fff;
+  color: #1c1e21;
+}
+/* .main {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+} */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.first-section {
+  width: 400px;
+}
+.fb-img {
+  width: 321px;
+  height: 106px;
+  margin: -28px;
+}
+.login-form {
+  height: 330px;
+  width: 396px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 7px;
+}
+/* .login-form > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+} */
+.form-input {
+  width: 92%;
+  padding: 14px 16px;
+  border: 1px solid #dddfe2;
+  border-radius: 5px;
+  font-size: 17px;
+  margin: 7px 0;
+}
+.form-input:focus {
+  outline: none;
+  border: 1px solid #1877f2;
+}
+.btn-login {
+  width: 100%;
+  background-color: #1877f2;
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+  border: 0;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 7px;
+}
+.forgot-pass-div {
+  text-align: center;
+  margin: 20px 0;
+}
+.forgot-pass {
+  text-decoration: none;
+  color: #0866ff;
+}
+.forgot-pass:hover {
+  text-decoration: underline;
+}
+.create-account {
+  text-align: center;
+  margin-top: 15px;
+}
+.btn-create-account {
+  border: 0;
+  background-color: #42b72a;
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-create-account:hover {
+  transition: 0.5s;
+  background-color: #198004;
+}
+.create-page-div {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 30px;
+}
+.create-page {
+  color: #1c1e21;
+  text-decoration: none;
+  font-weight: 700;
+}
+.create-page:hover {
+  text-decoration: underline;
+}
